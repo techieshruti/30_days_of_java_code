@@ -1,3 +1,4 @@
+// calculate average of 3 numbers
 import java.util.Scanner;
 
 public class Average {
