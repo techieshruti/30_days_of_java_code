@@ -9,15 +9,15 @@ public class ItemCost
 
         System.out.println("Enter the cost of Pencil :");
         float pencil = scn.nextFloat();
-        float pencilGst= pencil+0.18f; 
+        float pencilGst= pencil*0.18f; 
 
         System.out.println("Enter the cost of Pen :");
         float pen = scn.nextFloat();
-        float penGst= pen+0.18f;
+        float penGst= pen*0.18f;
 
         System.out.println("Enter the cost of Eraser :");
         float Eraser = scn.nextFloat();
-        float eraserGst= Eraser+0.18f;
+        float eraserGst= Eraser*0.18f;
 
         System.out.println("====================");
         System.out.println("Items        Cost");
