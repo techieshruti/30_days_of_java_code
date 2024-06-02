@@ -1,3 +1,5 @@
+//WriteaJavaprogramtogetanumberfromtheuserandprintwhetheritispositive or negativee
+
 import java.util.*;
 
 public class PositiveOrNegative
