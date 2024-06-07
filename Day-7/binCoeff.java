@@ -25,6 +25,11 @@ public class binCoeff
     }
     public static void main(String[] args)
     {
-        System.out.print(binCoeff(5,4));
-        }
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Enter value of n : ");
+        int n = scn.nextInt();
+        System.out.print("Enter value of r : ");
+        int r = scn.nextInt();
+        System.out.print("Binomial Coefficient is : " + binCoeff(n,r));
+    }
 }
