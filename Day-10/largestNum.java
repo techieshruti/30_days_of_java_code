@@ -16,6 +16,20 @@ public class largestNum
         }
         return large;
     }
+        public static int smallestNum(int arr[])
+        {
+            int min = Integer.MAX_VALUE;// it signifies to + infinity
+        for(int i = 0; i<arr.length; i++)
+        {
+            if(min > arr[i])
+            {
+                min = arr[i];
+            }
+        }
+        return min;
+        }
+        
+    
     
     public static void main(String[] args)
     {
@@ -27,6 +41,8 @@ public class largestNum
             System.out.print(" "+arr[i]);
         }
         int res = largestNum(arr);
+        int res1 = smallestNum(arr);
         System.out.println("\n\nLargest number is : "+res);
+        System.out.println("\nSmallest number is : "+res1);
     }
 }
