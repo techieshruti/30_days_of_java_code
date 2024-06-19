@@ -26,6 +26,7 @@ public class pairsInArray
             {
                System.out.print("(" + arr[i] + ","+ arr[j]+") "); 
             }
+            System.out.println();
         }
     }
     
