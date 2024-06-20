@@ -40,7 +40,7 @@ public class maxSubArraySum
             }
   
          }
-                 
+            System.out.println();     
        }
        System.out.println("Max Sum = " +maxSum);
        }
