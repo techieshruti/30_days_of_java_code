@@ -43,5 +43,33 @@ public class subArray
        }
        System.out.println("total subarrays are :" +ts);
        System.out.println("sum of subarrays are :" +subArraySums);
+
+       //calculate maximum value
+       public static int largest(int subArraySums[])
+       {
+          int large = Integer.MIN_VALUE; //signifies -infinity
+          if(large < subArraySums[i])
+          {
+            large = subArraySums[i];
+          }
+          return large;
+       }
+
+       //calculate minimum value
+       public static int smallestNum(int subArraySums[])
+        {
+            int min = Integer.MAX_VALUE;// it signifies to + infinity
+        for(int i = 0; i<arr.length; i++)
+        {
+            if(min > subArraySums[i])
+            {
+                min = subArraySums[i];
+            }
+        }
+        return min;
+        }
+
+       System.out.println("Minimum sum of subarrays is :" + largest(subArraySums));
+       System.out.println("Maximum sum of subarrays is :" + smallestNum(subArraySums));
     }
 }
