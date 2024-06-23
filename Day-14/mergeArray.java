@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class mergeArray {
     public static void main(String[] args)
     {
-        int a[] = { 10, 20, 30, 40 };
+        int a[] = { 10, 20, 30 };
         System.out.println("First array is :");
         for (int i = 0; i < a.length; i++)
         {
