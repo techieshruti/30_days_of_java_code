@@ -46,7 +46,7 @@ class removeDup {
         // removeDuplicates() returns new size of array
         n = removeDuplicates(arr, n);
 
-        // Print updated array
+        System.out.println("\nUpdated array is :");
         for (int i = 0; i < n; i++)
             System.out.print(arr[i] + " ");
     }
